@@ -1,0 +1,446 @@
+/* Use import to split up your CSS into manageable chunks */
+@import url("./_reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./_variables.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  max-width: 100%;
+  background-color: #eeeeee;
+  color: #000;
+  line-height: 1.6em;
+  min-height: 100vh;
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+  background-color: #3B7037;
+}
+
+.logo {
+  width: 130px;
+  height: 60px;
+
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  transition-duration: .5s;
+
+}
+
+
+
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#right header li {
+  display: inline;
+  list-style: none;
+}
+
+
+
+footer {
+  background-color: #3B7037;
+  padding-top: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #DDFFDD;
+  position: relative;
+}
+
+.footer-content {
+  width: 25%;
+}
+
+.footer-content .form {
+  margin: auto;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content p {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+
+}
+
+.footer-content ul {
+  text-align: center;
+
+}
+
+
+
+
+
+.social-icons {
+  text-align: center;
+  padding: 0;
+
+}
+
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.social-icons i {
+  color: #fff;
+  font-size: 25px;
+
+}
+
+.social-icons i:hover {
+  color: aqua;
+
+
+}
+
+
+.form .submit {
+  background-color: #333;
+  color: #cccccc;
+  width: 40%;
+  border-radius: 10%;
+  font-size: small;
+  cursor: pointer;
+
+}
+
+
+.social-icons {
+  margin-top: 20px;
+  left: 200px;
+
+}
+
+.payment {
+  display: block;
+  line-height: normal;
+
+}
+
+
+.bottom-bar {
+  width: 100%;
+  background-color: #333;
+  color: #b6b6b6;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.bottom-bar p {
+  color: #eeeeee;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.main {
+  flex: 1;
+}
+
+.main .p1 h1 {
+  float: left;
+  width: 30%;
+  font-weight: 800;
+
+}
+
+.main .p1 {
+  float: left;
+  width: 25%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.hero img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+.img-2 {
+  width: 500px;
+  border-radius: 8px;
+}
+
+#box-1 {
+  width: 500px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#black-week-ad {
+  padding: 10px;
+  line-height: normal;
+
+}
+
+footer {
+  background-color: #3B7037;
+  padding-top: 50px;
+
+
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 20%;
+
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.footer-content p {
+  width: 110px;
+  margin: auto;
+  padding: 5px;
+}
+
+.footer-content ul {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.social-icons {
+  text-align: center;
+  padding: 0;
+
+}
+
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.social-icons i {
+  color: inherit;
+  font-size: 30px;
+
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: rgb(0, 196, 245);
+}
+
+.social-icons i:hover {
+  color: rgb(0, 196, 245);
+
+}
+
+.logo {
+
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+}
+
+.bottom-bar {
+  background-color: #333;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.flex-container img {
+  border: 10px;
+  margin: 10px;
+}
+
+/*mobile to small tablets*/
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .flex-container img {
+    width: calc(50% -20px)
+  }
+}
+
+/* tablet to small laptops*/
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .flex-container img {
+    width: calc(33.3% -15px);
+
+  }
+}
+
+/*laptop to larger desktops*/
+@media screen and (min-width: 901px) and (max-width: 1300) {
+  .flex-container img {
+    width: calc(22% -20px)
+  }
+}
+
+/*larger monitors*/
+@media screen and (min-width: 1301px) {
+  .flex-container img {
+    width: calc(16% -20px)
+  }
+
+  .flex-container {
+    max-width: 1400px;
+  }
+}
+
+
+
+
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 20%;
+
+}
+
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.footer-content p {
+  width: 110px;
+  margin: auto;
+  padding: 5px;
+}
+
+.footer-content ul {
+  text-align: center;
+}
+
+
+
+.social-icons {
+  text-align: center;
+  padding: 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: rgb(0, 196, 245);
+
+}
+
+.fab.fa-instagram {
+  color: #f11395;
+}
+
+.fab.fa-facebook {
+  color: rgb(52, 68, 250);
+}
+
+.fab.fa-twitter {
+  color: rgb(67, 162, 200);
+}
+
+.logo {
+
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+}
+
+.bottom-bar {
+  background-color: #333;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  padding: 5px;
+}

@@ -12,7 +12,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -58,16 +57,12 @@ header {
   color: #144011;
   background-color: #fff;
   border-radius: 4px;
-
-
 }
 
 .navbar ul li a:hover {
   color: #144011;
   background-color: #eee;
   border-radius: 4px;
-
-
 }
 
 .header-icons {
@@ -86,8 +81,6 @@ header {
 .header-icons i:hover {
   color: #3c3c3c;
 }
-
-
 
 .home-page {
   max-width: 1200px;
@@ -109,7 +102,6 @@ header {
   color: #3e3d3d;
   top: 30px;
 }
-
 
 .firstbox {
   display: flex;
@@ -153,10 +145,6 @@ header {
   cursor: pointer;
 }
 
-
-
-
-
 .tes-hd {
   position: relative;
   width: 80%;
@@ -174,7 +162,6 @@ header {
 
 }
 
-
 .bx {
   padding-top: 40px;
   width: 100%;
@@ -189,7 +176,6 @@ header {
   font-style: italic;
 }
 
-
 .tes-container img {
   margin-right: 10px;
   width: 200px;
@@ -198,19 +184,12 @@ header {
   border: 0.5px solid;
 }
 
-
-
-
-
-
 .colhd {
   width: 25%;
   position: relative;
   left: 540px;
   bottom: 100px;
 }
-
-
 
 .collection {
   margin-left: 70px;
@@ -220,8 +199,6 @@ header {
   align-items: center;
 
 }
-
-
 
 .collection img {
   max-width: 100%;
@@ -239,16 +216,6 @@ header {
   text-align: left;
 }
 
-
-
-
-
-
-
-
-
-
-
 .shop {
   margin: 60px;
   max-width: 100%;
@@ -257,7 +224,6 @@ header {
 .shoph1 {
   font-size: 40px;
   text-align: center;
-
 }
 
 .columns {
@@ -266,8 +232,6 @@ header {
   justify-content: center;
 }
 
-
-
 .shop img {
   max-width: 100%;
   width: 300px;
@@ -275,14 +239,10 @@ header {
   margin-top: 20px;
 }
 
-
-
 .shop p {
   width: 55%;
   text-align: left;
 }
-
-
 
 .about {
   margin: 100px auto;
@@ -290,7 +250,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .about h1 {
@@ -308,7 +267,6 @@ header {
   background-color: #3B7037;
 }
 
-
 .about p {
   position: relative;
   font-size: 18px;
@@ -318,7 +276,6 @@ header {
   max-width: 700px;
   margin-bottom: 40px;
 }
-
 
 .about.img img {
   margin-top: 20px;
@@ -333,11 +290,6 @@ header {
   transform: scale(1.2);
   transition: 05s ease;
 }
-
-
-
-
-
 
 .contactsection {
   width: 80%;
@@ -384,7 +336,6 @@ header {
   margin-bottom: 20px;
 }
 
-
 .holder-right ul {
   display: flex;
   justify-content: space-evenly;
@@ -395,11 +346,6 @@ header {
 .holder-right i {
   font-size: 30px;
 }
-
-
-
-
-
 
 footer {
   background-color: #3B7037;
@@ -420,8 +366,6 @@ footer {
   position: relative;
   font-size: medium;
 }
-
-
 
 .footer-content {
   width: 25%;
@@ -447,8 +391,6 @@ footer {
   line-height: 0%;
   margin-bottom: 15px;
   margin: auto;
-
-
 }
 
 .form p {
@@ -487,7 +429,6 @@ footer {
   color: rgb(61, 61, 61);
   background-color: skyblue;
   border-radius: 12px;
-
 }
 
 .social-icons {
@@ -586,8 +527,6 @@ footer {
   height: 100px;
   margin-left: 85px;
   margin-top: 50px;
-
-
 }
 
 .contact.icons {

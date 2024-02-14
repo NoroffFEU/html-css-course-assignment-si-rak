@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="../src/css/styles.css">
   <title>About Rainydays</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
 </head>
 
 <body>
@@ -18,10 +16,10 @@
     <img class="logo" src="assets/images/Logo rainydays.png" alt="This is Rainydays logo">
     <nav class="navbar">
       <ul>
-        <li><a>Home</a></li>
-        <li><a>Shop</a></li>
-        <li class="active"><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="header-icons">
@@ -29,6 +27,7 @@
       <li><i class="fas fa-cart-shopping"></i></li>
     </div>
   </header>
+
   <main>
     <div class="about">
       <div class="about img">
@@ -48,7 +47,9 @@
           style and resilience was
           becoming a reality.</p>
       </div>
+    </div>
   </main>
+
   <footer>
     <div class="container">
       <div class="footer content">
@@ -58,13 +59,13 @@
           <p>
           <form action="/submit_contact_form" method="post">
             </p>
-            <p><label for="name">Full name:</label></p>
-            <p><input type="name" required></p>
-            <p><label for="email">Email:</label></p>
-            <p><input type="email" required></p>
-            <p><label for="message"> Your message:</label></p>
-            <p><textarea name="message" id="message" cols="30" rows="4" required></textarea></p>
-            <p><button class="submit">Submit</button></p>
+            <label for="name">Full name:</label>
+            <input type="name" required>
+            <label for="email">Email:</label>
+            <input type="email" required>
+            <label for="message"> Your message:</label>
+            <textarea name="message" id="message" cols="30" rows="4" required></textarea>
+            <button class="submit">Submit</button>
         </div>
       </div>
       <div class="footer-content">
@@ -95,12 +96,11 @@
           </div>
         </div>
       </div>
-  </footer>
-  <last-section>
-    <div class="bottom bar">
-      <p>Copyright &copy; 2023 Rainydays. &ensp; Privacy Policy. &ensp; Terms & Conditions </p>
     </div>
-  </last-section>
+  </footer>
+  <div class="bottom bar">
+    <p>Copyright &copy; 2023 Rainydays. &ensp; Privacy Policy. &ensp; Terms & Conditions </p>
+  </div>
 </body>
 
 </html>

@@ -3,6 +3,7 @@
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./_variables.css");
+@import url("./_styles.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">');
 
@@ -30,7 +31,7 @@ header {
 }
 
 .logo {
-  width: 130px;
+  width: 15%;
   height: 60px;
 }
 
@@ -109,8 +110,8 @@ header {
 }
 
 .firstbox img {
-  width: 650px;
-  height: 400px;
+  width: 40%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -305,6 +306,8 @@ header {
   margin: 40px auto;
   display: flex;
   background: rgb(235, 235, 235);
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .holder-left {
@@ -318,23 +321,6 @@ header {
   background: skyblue;
 }
 
-.holder-left h3 {
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-
-.holder-right h3 {
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-
-.holder-right h4 {
-  margin-bottom: 20px;
-}
-
-.holder-left h4 {
-  margin-bottom: 20px;
-}
 
 .holder-right ul {
   display: flex;
@@ -388,14 +374,12 @@ footer {
 }
 
 .form {
-  line-height: 0%;
+  line-height: 1.5;
   margin-bottom: 15px;
   margin: auto;
 }
 
-.form p {
-  margin-bottom: 15px;
-}
+
 
 .form label {
   display: block;
@@ -442,12 +426,10 @@ footer {
 
 .social-icons li {
   margin-bottom: 10px;
-  display: flex;
   justify-content: center;
 }
 
 .social-icons a {
-  display: flex;
   text-decoration: none;
   text-align: center;
   padding: 20px;
